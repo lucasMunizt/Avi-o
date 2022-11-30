@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bd7cf8-a6d3-445d-858c-c4d604642f7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aviao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aviao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LocalInvalido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Passageiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Voo.java" afterDir="false" />
+    <list default="true" id="54bd7cf8-a6d3-445d-858c-c4d604642f7d" name="Changes" comment="inicio">
+      <change afterPath="$PROJECT_DIR$/src/Assento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Execoes/AviaoLotadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Execoes/LocalInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Execoes/LugarNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Passagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aviao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalInvalido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passageiros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passageiros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Micro/Desktop/Aviao",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +56,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.2395087"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -97,8 +100,19 @@
       <workItem from="1669402267504" duration="4500000" />
       <workItem from="1669465759944" duration="10836000" />
       <workItem from="1669492479333" duration="335000" />
-      <workItem from="1669569849728" duration="17309000" />
+      <workItem from="1669569849728" duration="18699000" />
+      <workItem from="1669637857157" duration="28311000" />
+      <workItem from="1669724272587" duration="10677000" />
+      <workItem from="1669838084188" duration="607000" />
     </task>
+    <task id="LOCAL-00001" summary="inicio">
+      <created>1669597155953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669597155953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +128,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="inicio" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,11 +1,20 @@
 public class Assento {
-    private Passageiros passageiros;
+    private Cliente passageiros;
 
-    public Passageiros getPassageiros() {
+    private int guadarassento;
+    public Cliente getPassageiros() {
         return passageiros;
     }
 
-    public void setPassageiros(Passageiros passageiros) {
+    public void setPassageiros(Cliente passageiros) {
         this.passageiros = passageiros;
+    }
+
+    public int getGuadarassento() {
+        return guadarassento;
+    }
+
+    public void setGuadarassento(int guadarassento) {
+        this.guadarassento = guadarassento;
     }
 }

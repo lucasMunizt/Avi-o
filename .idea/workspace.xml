@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bd7cf8-a6d3-445d-858c-c4d604642f7d" name="Changes" comment="inicio">
-      <change afterPath="$PROJECT_DIR$/src/Assento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Execoes/AviaoLotadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Execoes/LocalInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Execoes/LugarNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Passagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
+    <list default="true" id="54bd7cf8-a6d3-445d-858c-c4d604642f7d" name="Changes" comment="mudanças">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aviao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LocalInvalido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DestinoIvalido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Execoes/DestinoIvalido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Passageiros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passageiros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passageiros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,35 +32,38 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Hu4SKPd143YvxDD9tyODgZibwb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Micro/Desktop/Aviao",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "settings.editor.splitter.proportion": "0.2395087"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Micro/Desktop/Aviao&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2395087&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -103,7 +102,17 @@
       <workItem from="1669569849728" duration="18699000" />
       <workItem from="1669637857157" duration="28311000" />
       <workItem from="1669724272587" duration="10677000" />
-      <workItem from="1669838084188" duration="607000" />
+      <workItem from="1669838084188" duration="1958000" />
+      <workItem from="1669947038621" duration="85000" />
+      <workItem from="1669988305995" duration="260000" />
+      <workItem from="1669990114370" duration="3406000" />
+      <workItem from="1670004299043" duration="870000" />
+      <workItem from="1670017277844" duration="8437000" />
+      <workItem from="1670072368527" duration="25894000" />
+      <workItem from="1670157360124" duration="4414000" />
+      <workItem from="1670241725793" duration="19839000" />
+      <workItem from="1670288062453" duration="4713000" />
+      <workItem from="1670330912079" duration="20588000" />
     </task>
     <task id="LOCAL-00001" summary="inicio">
       <created>1669597155953</created>
@@ -112,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669597155953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mudanças">
+      <created>1669845207438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669845207438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +147,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicio" />
+    <MESSAGE value="mudanças" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudanças" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Passagem" memberName="passageiros" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="psgs.get(0)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

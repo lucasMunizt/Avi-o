@@ -1,11 +1,9 @@
-import Execoes.AviaoLotadoException;
-import Execoes.LocalInvalidoException;
-import Execoes.SenhaInvalidaException;
+import Execoes.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
-    public static void main (String[] args) throws SenhaInvalidaException, LocalInvalidoException {
+    public static void main (String[] args) throws LocalInvalidoException {
                 int l = 0;
                 int confirmar= 0;
                 String nome=null;
@@ -15,6 +13,7 @@ public class Main {
                 Scanner src = new Scanner(System.in);
                 ArrayList<Voo> voo = new ArrayList<>();
                 ArrayList<Passagem> psgs = new ArrayList<>();
+                ArrayList<Integer> posicoes = new ArrayList<>();
                 Voo.adicionar();
                 while(l != 6) {
                     System.out.println("1:Comprar a passagem:");
@@ -65,11 +64,12 @@ public class Main {
                                     System.out.println("Digite seu cpf: ");
                                     cl.setCpf(cpf = src.next());
                                 }
-                                int recebe= voo1.AddPassageiro(cl);
+                                int posicao = voo1.AddPassageiro(cl);
+                                posicoes.add(posicao);
                                 voo.add(voo1);
                                 System.out.println("\nnome: " + cl.getNome() + "\ncpf: " + cl.getCpf() + "\norigem: "
                                         + leitura + " Destino " + leitura1 + "\n" +
-                                        "Assento: " + voo1.getNumDeAssentos()[recebe].getGuadarassento()+ "\n"
+                                        "Assento: " + voo1.getNumDeAssentos()[posicao].getGuadarassento()+ "\n"
                                         + "ID: " +voo1.IdAleatorio()+ "\nValor da passagem: " + voo1.ValordaPassgem());
                             } catch (LocalInvalidoException e) {
                                 System.out.println("Local invalido");
@@ -100,16 +100,16 @@ public class Main {
                             if (confirmar2 == 1) {
 
                                 System.out.println("Coloque seu id");
-                                int leituraid2 = src.nextInt();
+                                int id = src.nextInt();
                                 for (int i = 0; i < voo.size(); i++) {
-                                    if (leituraid2 ==voo.get(i).getId()) {
-                                        String recebe2 = voo.get(i).getNumDeAssentos();
+                                	System.out.println(voo.get(i).getId());
+                                    if (id ==voo.get(i).getId()) {
                                         System.out.println("digite o nome:");
                                         String nomeNovo = src.next();
                                         System.out.println("digite o cpf:");
                                         String cpfNovo = src.next();
-                                        voo.get(i).getNumDeAssentos()[recebe2].getPassageiros().setNome(nomeNovo);
-                                        voo.get(i).getCliente().setCpf(cpfNovo);
+                                        voo.get(i).getNumDeAssentos()[posicoes.get(i)].getPassageiros().setNome(nomeNovo);
+                                        voo.get(i).getNumDeAssentos()[posicoes.get(i)].getPassageiros().setCpf(cpfNovo);
                                         break;
                                     }
                                 }
@@ -157,5 +157,6 @@ public class Main {
             }
     }
  }
+
 
 

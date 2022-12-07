@@ -187,7 +187,18 @@ public  class  Voo {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
+    
+    public ArrayList<Cliente> getPassageiros() {
+        return passageiros;
+    }
+
+    public void setCliente(ArrayList<Cliente> passageiros) {
+        this.passageiros= passageiros;
+    }
 }
+
+
+
 
 
 
